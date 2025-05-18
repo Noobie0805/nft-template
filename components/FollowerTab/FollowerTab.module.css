@@ -72,6 +72,7 @@
 }
 
 .followerTab_member_box a {
+    width: 110%;
     background-color: var(--icons-color);
     margin-inline: 1.5rem;
     padding: 1rem, 2rem;

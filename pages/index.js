@@ -14,6 +14,7 @@ const Home = () => {
       <BigNFTSlider />
       {/* <Title heading="New Collection " paragraph="Discover the most outstanding NFTs in all topics of life." /> */}
       <Collection />
+      <FollowerTab />
       <Title heading="Featured NFTs" paragraph="Discover the most outstanding NFTs in all topics of life." />
       <Filter />
       <NFTCards />
