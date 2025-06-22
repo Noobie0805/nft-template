@@ -11,5 +11,6 @@ import Filter from './Filter/Filter';
 import NFTCards from './NFTCards/NFTCards';
 import Collection from './Collection/Collection';
 import FollowerTab from './FollowerTab/FollowerTab';
+import AudioLive from './AudioLive/AudioLive';
 
-export { Button, Footer, NavBar, HeroSection, Service, BigNFTSlider, Subscribe, Title, Category, Filter, NFTCards, Collection, FollowerTab };
+export { Button, Footer, NavBar, HeroSection, Service, BigNFTSlider, Subscribe, Title, Category, Filter, NFTCards, Collection, FollowerTab, AudioLive };

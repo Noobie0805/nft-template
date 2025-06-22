@@ -4,7 +4,7 @@ import React from 'react'
 
 // internal import...
 import Style from "../styles/index.module.css"
-import { HeroSection, Service, BigNFTSlider, Subscribe, Title, Category, Filter, NFTCards, Collection, FollowerTab } from '../components/componentsindex';
+import { HeroSection, Service, BigNFTSlider, Subscribe, Title, Category, Filter, NFTCards, Collection, FollowerTab, AudioLive } from '../components/componentsindex';
 
 const Home = () => {
   return (
@@ -12,6 +12,8 @@ const Home = () => {
       <HeroSection />
       <Service />
       <BigNFTSlider />
+      <Title heading="Latest Audio Collection " paragraph="Walk through the amazing video collections.." />
+      <AudioLive />
       {/* <Title heading="New Collection " paragraph="Discover the most outstanding NFTs in all topics of life." /> */}
       <Collection />
       <FollowerTab />
