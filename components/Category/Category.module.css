@@ -17,6 +17,8 @@
     overflow: hidden;
     cursor: pointer;
     padding-bottom: 1rem;
+    background-color: white;
+    border-radius: 1rem;
 }
 
 .category_box:hover {
@@ -28,7 +30,8 @@
 .category_box_img {
     border-radius: 1rem;
     width: 100%;
-    height: 55%
+    height: 55%;
+    padding: .3rem;
 }
 
 .category_box_title {

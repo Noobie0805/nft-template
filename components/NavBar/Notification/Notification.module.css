@@ -10,7 +10,7 @@
     top: 3.5rem;
     z-index: 2222222222;
     background-color: var(--main-bg-color);
-
+    border: 1px solid var(--icons-color)
 }
 
 .notification>p {
@@ -32,6 +32,7 @@
     background-color: var(--icons-color);
     border-radius: .3rem;
     color: var(--shadow-dark-color);
+
 }
 
 .notification_box_img {

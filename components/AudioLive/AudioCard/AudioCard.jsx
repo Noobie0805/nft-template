@@ -10,15 +10,69 @@ import images from "../../../img"
 const AudioCard = () => {
     const [like, setLike] = useState(false);
     const [play, setPlay] = useState(false);
+
+    const likeNft = () => {
+        if (!like) {
+            setLike(true);
+        }
+        else {
+            setLike(false);
+        }
+    }
+    const playMusic = () => {
+        if (!play) {
+            setPlay(true)
+        }
+        else {
+            setPlay(false)
+        }
+    }
+
     return (
         <div className={Style.audioCard}>
             <div className={Style.audioCard_box}>
                 <div className={Style.audioCard_box_like_time}>
                     <div className={Style.audioCard_box_like} onClick={() => likeNft()}>
-                        {like ? (<AiFillHeart className={Style.audioCard_box_like_icon} />) : (<AiOutlineHeart className={Style.audioCard_box_like_icon} />)}
+                        {like ? (<AiFillHeart className={Style.audioCard_box_like_icon} />) : (<AiOutlineHeart className={Style.audioCard_box_unlike_icon} />)}
                         <span>24</span>
                     </div>
-                    <div className={Style.audioCard_box_like}></div>
+                    <div className={Style.audioCard_box_time}>
+                        <div className={Style.audioCard_box_like_time_remaining}>
+                            <small>Ramaining Time</small>
+                            <h5>3h : 15m : 20s</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div className={Style.audioCard_box_player}>
+                    <Image src={images.musiceWave} alt="music" width={200} />
+                    <div className={Style.audioCard_box_musicPlayer} onClick={() => playMusic()}>
+                        {play ? (
+                            <div className={Style.audioCard_box_musicPlayer_icon}>
+                                <TbPlayerPause />
+                            </div>
+                        ) : (
+                            <div className={Style.audioCard_box_musicPlayer_icon}>
+                                <TbPlayerPlay />
+                            </div>
+                        )}
+                    </div>
+                </div>
+
+                <div className={Style.audioCard_box_details}>
+                    <div className={Style.audioCard_box_details_info}>
+                        <h4>NFT music #1123</h4>
+                        <div className={Style.audioCard_box_details_info_price}>
+                            <small>Price</small>
+                            <p>$ 3,221.33</p>
+                        </div>
+                    </div>
+                    <div className={Style.audioCard_box_details_stock}>
+                        <small>24 in stock</small>
+                    </div>
+                </div>
+                <div className={Style.audioCard_box_img}>
+                    <Image src={images.creatorbackground3} alt="background" width={450} height={450} />
                 </div>
             </div>
         </div>

@@ -4,11 +4,13 @@
     transition: all 0.3s ease-in;
     cursor: pointer;
 
+
 }
 
-/* .daysComponents_box {
-    
-} */
+.daysComponents_box {
+    background-color: white;
+    border-radius: 1rem;
+}
 
 .daysComponents:hover {
     box-shadow: var(--box-shadow);

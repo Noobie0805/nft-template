@@ -32,15 +32,21 @@ const NavBar = () => {
     const openMenu = (e) => {    // check the event object for the click event and set the state of the side menu
         const btnText = e.target.innerText;
         if (btnText === 'Discover') {
-            setDiscover(true);
-            setHelp(false);
-            setNotification(false);
-            setProfile(false);
+            if (discover) { setDiscover(false) }
+            else {
+                setDiscover(true);
+                setHelp(false);
+                setNotification(false);
+                setProfile(false);
+            }
         } else if (btnText === 'Help Center') {
-            setDiscover(false);
-            setHelp(true);
-            setNotification(false);
-            setProfile(false);
+            if (help) { setHelp(false) }
+            else {
+                setDiscover(false);
+                setHelp(true);
+                setNotification(false);
+                setProfile(false);
+            }
         } else {
             setDiscover(false);
             setHelp(false);

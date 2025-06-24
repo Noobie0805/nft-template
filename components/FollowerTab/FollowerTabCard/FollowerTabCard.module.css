@@ -6,6 +6,8 @@
     transition: all .2s ease-in;
     cursor: pointer;
     position: relative;
+    background-color: white;
+
 }
 
 .FollowerTabCard_box:hover {
@@ -28,12 +30,16 @@
 }
 
 .FollowerTabCard_rank:hover {
-    background-color: var(--main-bg-color);
+    /* background-color: var(--main-bg-color); */
+    background-color: white;
+
     color: var(--icons-color);
 }
 
 .FollowerTabCard_box_img {
     grid-column: 1/-1;
+    padding: 0 .34rem;
+
 }
 
 .FollowerTabCard_box_img_img {
@@ -60,7 +66,9 @@
     content: "";
     width: 5rem;
     height: 5rem;
-    background-color: var(--main-bg-color);
+    /* background-color: var(--main-bg-color); */
+    background-color: white;
+
     border-radius: 50%;
     top: -3%;
     left: 35.5%;
@@ -89,7 +97,7 @@
     background-color: var(--shadow-dark-color);
     padding: .6rem 1.3rem;
     border-radius: 2rem;
-    border: 1px solid var(--icons-color);
+    border: 2px solid var(--icons-color);
     transition: all .3s ease-in;
 
 }
