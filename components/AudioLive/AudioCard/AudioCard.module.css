@@ -89,11 +89,10 @@
     display: flex;
     align-items: center;
     border-radius: 50%;
-    /* background-color: var(--main-bg-color); */
-    background-color: white;
+    background-color: var(--icons-color);
     font-size: 2rem;
     cursor: pointer;
-    color: var(--icons-color);
+    color: var(--main-bg-color);
 
 }
 
