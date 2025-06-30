@@ -1,12 +1,12 @@
  .slider {
-     width: 100%;
+     width: 95%;
      /* background-color: var(--shadow-dark-color); */
  }
 
  .slider_box {
      width: 90%;
      margin: 0 auto;
-     padding: 0 -1rem 8rem 0;
+     /* padding: 0 1rem 2rem 0; */
  }
 
  .slider_box h2 {
@@ -56,9 +56,9 @@
  .slider_box_items {
      width: 100%;
      overflow: hidden;
-     border-top: 1px solid var(--icons-color);
+     /* border-top: 1px solid var(--icons-color);
      border-bottom: 1px solid var(--icons-color);
-     border-radius: 2rem;
+     border-radius: 2rem; */
      /* padding: 0; */
      margin-top: 1rem;
  }
@@ -66,8 +66,8 @@
  .slider_box_item {
      display: grid;
      grid-template-columns: repeat(6, 20.4rem);
-     gap: 1rem;
-     padding: 4rem 2rem;
+     gap: 1.5rem;
+     padding: 1rem 2rem;
      cursor: grab;
  }
 

@@ -9,6 +9,7 @@
     margin: 0 auto;
     padding: 0 0 6rem 0;
     text-align: center;
+    color: var(--icons-color);
 }
 
 .collection_title h2 {

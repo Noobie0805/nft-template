@@ -21,12 +21,13 @@
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     width: 100%;
+    padding-bottom: .1rem;
 }
 
 .daysComponents_box_profile {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: .5rem;
+    gap: .3rem;
 }
 
 .daysComponents_box_img_1 {

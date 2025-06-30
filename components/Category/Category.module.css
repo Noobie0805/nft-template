@@ -2,6 +2,7 @@
     width: 80%;
     margin: 0 auto;
     color: var(--icons-color);
+    margin-bottom: 2rem;
 }
 
 .category {
@@ -16,7 +17,7 @@
     transition: all 0.3s ease-in;
     overflow: hidden;
     cursor: pointer;
-    padding-bottom: 1rem;
+    /* padding-bottom: 1rem;s */
     background-color: white;
     border-radius: 1rem;
 }
@@ -30,14 +31,13 @@
 .category_box_img {
     border-radius: 1rem;
     width: 100%;
-    height: 55%;
-    padding: .3rem;
+    /* height: 55%; */
 }
 
 .category_box_title {
     display: flex;
     align-items: center;
-    padding: 1rem;
+    padding: .5rem;
     gap: 1rem;
 }
 

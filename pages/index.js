@@ -4,7 +4,7 @@ import React from 'react'
 
 // internal import...
 import Style from "../styles/index.module.css"
-import { HeroSection, Service, BigNFTSlider, Subscribe, Title, Category, Filter, NFTCards, Collection, FollowerTab, AudioLive, Slider } from '../components/componentsindex';
+import { HeroSection, Service, BigNFTSlider, Subscribe, Title, Category, Filter, NFTCards, Collection, FollowerTab, AudioLive, Slider, Brand, Video } from '../components/componentsindex';
 
 const Home = () => {
   return (
@@ -24,6 +24,8 @@ const Home = () => {
       <NFTCards />
       <Title heading="Browse By category" paragraph="Explore the NFT int the most featured categories.." />
       <Category />
+      <Video />
+      <Brand />
       <Subscribe />
     </div>
   );

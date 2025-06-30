@@ -6,12 +6,13 @@
     margin: 0 auto;
     padding: 0 1.2rem 0 3rem;
     /* padding-left: 2.5rem; */
+    margin-bottom: 9rem;
 }
 
 .NFTCard_box {
     background-color: var(--shadow-light-color);
-    padding: 1rem;
-    border-radius: 1rem;
+    padding: .6rem;
+    border-radius: .3rem;
     width: 90%;
     height: 90%;
 
