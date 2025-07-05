@@ -1,11 +1,29 @@
 import React from 'react'
+import Image from 'next/image'
 
 //internal imports 
 import Style from "../styles/searchPage.module.css"
+import images from "../img"
+import { Slider, Brand } from "../components/componentsindex"
+import { SearchBar } from "../SearchPage/searchIndex"
+import { Filter } from "../components/componentsindex"
+import { NFTCardTwo, Banner } from '../collectionPage/collectionindex'
+
 
 const searchPage = () => {
+    const collectionArray = [
+        images.nft_image_1, images.nft_image_1, images.nft_image_2, images.nft_image_3,
+        images.nft_image_1, images.nft_image_2, images.nft_image_3, images.nft_image_2
+    ]
     return (
-        <div>searchPage</div>
+        <div className={Style.searchPage}>
+            <Banner bannerImage={images.creatorbackground10} />
+            <SearchBar />
+            <Filter />
+            <NFTCardTwo NFTData={collectionArray} />
+            <Slider />
+            <Brand />
+        </div>
     )
 }
 

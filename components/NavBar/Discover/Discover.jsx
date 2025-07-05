@@ -14,7 +14,7 @@ const Discover = () => {
         },
         {
             name: "Search",
-            link: "search"
+            link: "searchPage"
         },
         {
             name: "Aurthor Profile",
@@ -22,19 +22,19 @@ const Discover = () => {
         },
         {
             name: "NFT Details",
-            Link: "NFT-details"
+            link: "NFTdetails"
         },
         {
             name: "Account Settings",
-            Link: "account-settings"
+            link: "account-settings"
         },
         {
             name: "Connect Wallet",
-            Link: "connect-wallet"
+            link: "connect-wallet"
         },
         {
             name: "Blog",
-            Link: "blog"
+            link: "blog"
         }
     ];
 

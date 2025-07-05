@@ -6,6 +6,7 @@
 }
 
 .footer_box {
+    margin-top: 5rem;
     width: 80%;
     margin: 0 auto;
     display: grid;
@@ -15,6 +16,13 @@
     justify-content: space-between;
     gap: 3rem;
 
+}
+
+.footer_box_social,
+.footer_box_discover,
+.subscribe {
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
 }
 
 /* MEDIA QUERY... for narrow screen width..*/
