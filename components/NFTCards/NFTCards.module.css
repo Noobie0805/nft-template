@@ -146,18 +146,19 @@
     border: 1px solid var(--icons-color);
     padding: .2rem .5rem;
     align-items: center;
-    border-radius: .3rem
+    border-radius: .3rem;
+    width: 60%;
 }
 
 .NFTCard_box_update_details_price_box_bid small {
     background-color: var(--icons-color);
-    color: var(----main-bg-color);
+    color: var(--main-bg-color);
     border-radius: .2rem;
     padding: .2rem;
 }
 
 .NFTCard_box_update_details_price_box_bid p {
-    padding: .5rem 0 0 0;
+    padding: .5rem .5rem 0 .5rem;
     font-weight: 600;
 }
 
