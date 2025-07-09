@@ -42,6 +42,9 @@ import nft_image_3 from "./nft-image-3.png";
 import musiceWave from "./musicwave.png";
 import update from "./update.png";
 import earn from "./earn.png"
+import upload from "./upload.jpeg"
+import upload2 from "./upload2.png"
+import upload3 from "./upload3.png"
 
 
 export default {
@@ -89,5 +92,7 @@ export default {
   youtube,
   zgcmq,
   earn,
-
+  upload,
+  upload2,
+  upload3
 };
