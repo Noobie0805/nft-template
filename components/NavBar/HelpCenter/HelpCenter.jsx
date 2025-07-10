@@ -11,7 +11,7 @@ const HelpCenter = () => {            // array bna li elements ki jo iske andar 
         },
         {
             name: "Contact Us",
-            link: "contact-us"
+            link: "contactUs"
         },
         {
             name: "Sign Up",

@@ -45,6 +45,10 @@ import earn from "./earn.png"
 import upload from "./upload.jpeg"
 import upload2 from "./upload2.png"
 import upload3 from "./upload3.png"
+import metamask from "./metamask.png"
+import Fortmatic from "./Fortmatic.png"
+import walletConnect from "./walletConnect.png"
+import CoinBase from "./CoinBase.png"
 
 
 export default {
@@ -94,5 +98,10 @@ export default {
   earn,
   upload,
   upload2,
-  upload3
+  upload3,
+  metamask,
+  Fortmatic,
+  walletConnect,
+  CoinBase
+
 };

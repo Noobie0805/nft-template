@@ -10,7 +10,7 @@ const Video = () => {
     return (
         <div className={Style.Video}>
             <div className={Style.Video_box}>
-                <h1><span>XD</span> The Videos</h1>
+                <h1><span>🎬</span> The Videos</h1>
                 <p>Check out our latest videos. View more and share more new perpectives
                     about any topic. Everyone's welcomed !
                 </p>
