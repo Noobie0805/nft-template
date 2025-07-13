@@ -6,8 +6,8 @@ import Style from './HelpCenter.module.css';
 const HelpCenter = () => {            // array bna li elements ki jo iske andar aani hain..
     const helpCenter = [
         {
-            name: "About",
-            link: "about"
+            name: "About Us",
+            link: "aboutUs"
         },
         {
             name: "Contact Us",

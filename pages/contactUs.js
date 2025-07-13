@@ -7,13 +7,13 @@ import { HiOutlineMail } from 'react-icons/hi'
 import Style from "../styles/contactUs.module.css"
 import images from "../img"
 import formStyle from "../accountPage/Form/Form.module.css"
-import { Buttons } from "../components/componentsindex"
+import { Button } from "../components/componentsindex"
 
 const ContactUs = () => {
     return (
         <div className={Style.contactUs}>
             <div className={Style.contactUs_box}>
-                <h1>Contact </h1>
+                <h1> 📲Contact Us</h1>
                 <div className={Style.contactUs_box_box}>
                     <div className={Style.contactUs_box_box_left}>
                         <div className={Style.contactUs_box_box_left_item}>
@@ -26,7 +26,7 @@ const ContactUs = () => {
                         </div>
                         <div className={Style.contactUs_box_box_left_item}>
                             <h3>☎️ Phone</h3>
-                            <p>no.example@example.com</p>
+                            <p>000-123-456-7890</p>
                         </div>
                         <div className={Style.contactUs_box_box_left_item}>
                             <h3>🌍 Socials</h3>
@@ -53,9 +53,10 @@ const ContactUs = () => {
                                 </div>
                             </div>
                             <div className={formStyle.Form_box_input}>
-                                <label htmlFor='description'>Description</label>
+                                <label htmlFor='description'>Message</label>
                                 <textarea name="" id="" cols="30" rows="6" placeholder="Something about yourself in few words! "></textarea>
                             </div>
+                            <Button classStyle={Style.button} btnName="Send Message" handleClick={() => { }} />
                         </form>
                     </div>
                 </div>

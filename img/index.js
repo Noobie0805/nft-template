@@ -49,6 +49,18 @@ import metamask from "./metamask.png"
 import Fortmatic from "./Fortmatic.png"
 import walletConnect from "./walletConnect.png"
 import CoinBase from "./CoinBase.png"
+import about_hero_right from "./about_hero_right.webp"
+import heroright1 from "./heroright1.webp"
+import founder1 from "./founder1.webp"
+import founder2 from "./founder2.webp"
+import founder3 from "./founder3.webp"
+import founder4 from "./founder4.webp"
+import nft_image_4 from "./nft_image_4.webp"
+import nft_image_5 from "./nft_image_5.jpg"
+import nft_image_6 from "./nft_image_6.jpg"
+import nft_image_7 from "./nft_image_7.jpg"
+import nft_image_8 from "./nft_image_8.jpg"
+import nft_image_9 from "./nft_image_9.jpg"
 
 
 export default {
@@ -102,6 +114,17 @@ export default {
   metamask,
   Fortmatic,
   walletConnect,
-  CoinBase
-
+  CoinBase,
+  about_hero_right,
+  heroright1,
+  founder1,
+  founder2,
+  founder3,
+  founder4,
+  nft_image_4,
+  nft_image_5,
+  nft_image_6,
+  nft_image_7,
+  nft_image_8,
+  nft_image_9,
 };

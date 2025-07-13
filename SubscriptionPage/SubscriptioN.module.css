@@ -1,0 +1,77 @@
+.SubscriptioN_box {
+    border: 3px solid #1e90ff;
+    border-top: 8px solid #1e90ff;
+    padding: 2rem;
+    border-radius: 2rem;
+    position: relative;
+    cursor: pointer;
+    background-color: white;
+    box-shadow: var(--box-shadow);
+
+}
+
+.SubscriptioN_box:hover {
+    border-radius: 2rem;
+    /* border: 3px solid #1e90ff; */
+    transition: all .3s ease-in-out;
+    transform: scale(1.02);
+}
+
+.SubscriptioN_box_span {
+    font-size: 1rem;
+    font-weight: 300;
+    color: gray;
+}
+
+.SubscriptioN_box_small {
+    position: absolute;
+    right: 1rem;
+    font-size: .8rem;
+    border-radius: 1rem;
+    color: white;
+    background-color: #1e90ff;
+    padding: .5rem;
+    font-weight: 600;
+}
+
+.SubscriptioN_box_price {
+    font-size: 3rem;
+    line-height: 0;
+    font-weight: 400;
+    display: flex;
+}
+
+.SubscriptioN_box_price_period {
+    font-size: 1.5rem;
+    color: gray
+}
+
+.SubscriptioN_box_info {
+    margin: 4rem 0;
+}
+
+.SubscriptioN_box_info_para {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 0;
+}
+
+.SubscriptioN_box_info_span {
+    font-size: 1rem;
+    line-height: 0;
+}
+
+.button {
+    background-color: #1e90ff;
+    margin-bottom: 1.5rem;
+    width: 100%;
+    margin-top: -1rem;
+}
+
+.button:hover {
+    background-color: #0057b8;
+    color: white;
+}
