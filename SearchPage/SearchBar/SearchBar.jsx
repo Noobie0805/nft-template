@@ -3,8 +3,8 @@ import Image from 'next/image'
 import { BsSearch, BsArrowRight } from "react-icons/bs"
 
 //internal imports 
-import Style from "./Searchbar.module.css"
-import images from "../../img"
+import Style from "./SearchBar.module.css"
+// import images from "../../img"
 
 const SearchBar = () => {
     return (
